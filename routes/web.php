@@ -41,6 +41,7 @@ Route::controller(TestController::class)->group(function(){
 
 
     Route::get('/ddelete/dsubcategory/{id}','dDeleteSubCategory')->name('ddelete.subcategory');
+    Route::get('/dddelete/ddsubcategory/{id}','ddDeleteSubCategory')->name('dddelete.subcategory');
 
 });
 
