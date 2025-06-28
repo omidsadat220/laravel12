@@ -38,5 +38,9 @@ Route::controller(TestController::class)->group(function(){
     Route::get('/edit/subcategory/{id}','EditSubCateogry')->name('edit.subcategory');
     Route::post('/update/subcategory','UpdateSubCategory')->name('update.subcategory');
     Route::get('/delete/subcategory/{id}','DeleteSubCategory')->name('delete.subcategory');
+
+
+    Route::get('/ddelete/dsubcategory/{id}','dDeleteSubCategory')->name('ddelete.subcategory');
+
 });
 
